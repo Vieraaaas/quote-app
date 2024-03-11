@@ -1,0 +1,35 @@
+:root {
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: rgb(161, 228, 191);
+}
+
+header button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 1.5rem;
+}
+
+header button:hover {
+  outline: 0.25rem solid green;
+}
+
+blockquote {
+  font-weight: bold;
+  max-width: 70ch;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+blockquote footer {
+  font-weight: normal;
+}
